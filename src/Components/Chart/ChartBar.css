@@ -1,0 +1,29 @@
+.chart-bar{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+
+.chart-bar__inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  background-color: rgba(128, 0, 128, 0.76);
+  border-radius: 12px;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.chart-bar__fill{
+  background-color: yellow;
+  width: 100%;
+  transition: 0.9s;
+}
+
+.chart-bar__label{
+  font-size: 0.8rem;
+}
+
